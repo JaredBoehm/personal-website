@@ -1,0 +1,66 @@
+body {
+    background: #1a1a1a;
+    margin: 0px;
+    text-align: center;
+}
+
+.nav {
+    padding: 1rem;
+    text-align: left;
+}
+
+.logo {
+    height: auto;
+    width: 50px;
+}
+
+.info-card {
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+    border-radius: 3px;
+    display: inline-block;
+    height: 325px;
+    margin: 1rem;
+    overflow: hidden;
+    padding: 1rem;
+
+    -webkit-box-shadow: 0 1rem 2rem 0 rgba(0,0,0,.5);
+            box-shadow: 0 1rem 2rem 0 rgba(0,0,0,.5);
+}
+
+.profile-img {
+    height: auto;
+    width: 250px;
+}
+
+.profile-details {
+    font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+
+p, a {
+    color: #1a1a1a;
+    font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+    font-size: 1rem;
+}
+
+.pill-link {
+    background: #ccc;
+    border-radius: 3px;
+    color: #fff;
+    padding: 0.25rem 0.5rem;
+    text-decoration: none;
+    outline: none;
+
+    -webkit-transition: all 400ms cubic-bezier(0.25, 0.1, 0.25, 1);
+       -moz-transition: all 400ms cubic-bezier(0.25, 0.1, 0.25, 1);
+         -o-transition: all 400ms cubic-bezier(0.25, 0.1, 0.25, 1);
+            transition: all 400ms cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.pill-link:hover {
+    background: #1a1a1a;
+    color: #fff;
+    cursor: pointer;
+}
