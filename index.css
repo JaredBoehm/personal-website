@@ -5,13 +5,14 @@ body {
 }
 
 .nav {
+    background: rgba(0,0,0,.5);
+    margin-bottom: 1rem;
     padding: 1rem;
-    text-align: left;
 }
 
 .logo {
     height: auto;
-    width: 50px;
+    width: 2rem;
 }
 
 .info-card {
